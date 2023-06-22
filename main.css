@@ -69,3 +69,21 @@ section .content , .img_box{
     height: 100%;
     border: 1px solid #fff;
 }
+section .content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+section .content .cont{
+    border: 1px solid #fff;
+    margin-left: 20%;
+}
+section .content .cont h1{
+    color: #fff;
+    font-size: 45px;
+    line-height: 50px;
+}
+section .content .cont p{
+    width: 250px;
+    color: rgb(255, 255, 255, .8);
+}
