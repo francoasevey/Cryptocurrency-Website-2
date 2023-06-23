@@ -87,5 +87,16 @@ section .content .cont p{
     width: 250px;
     color: rgb(255, 255, 255, .8);
     margin-top: 10px;
+    font-size: 10px;
     word-break: break-all;
+}
+section .content .cont button{
+    color: #85480f;
+    background: linear-gradient(150deg, #cf8f35, #fff4ca, #85480f);
+    font-weight: 900;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-shadow: 2px 2px;
 }
