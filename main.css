@@ -121,3 +121,23 @@ header footer{
     align-items: center;
     justify-content: space-between;
 }
+header footer ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+header footer ul li{
+    padding: 3px 10px;
+}
+header footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 10px;
+    transition: .3s linear;
+}
+header footer ul li a:hover{
+    color: #000;
+    background: #fff;
+    border-radius: 20px;
+}
