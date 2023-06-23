@@ -98,5 +98,14 @@ section .content .cont button{
     margin-top: 10px;
     padding: 5px 15px;
     border-radius: 5px;
-    text-shadow: 2px 2px;
+    text-shadow: 2px 2px rgb(133, 72, 15, .2);
+    display: flex;
+    align-items: center;
+    transition: .3s linear;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+section .content .cont button:hover{
+    background: linear-gradient(150deg, #85480f, #fff4ca, #cf8f35);
 }
