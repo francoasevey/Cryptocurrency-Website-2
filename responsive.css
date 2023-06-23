@@ -40,3 +40,31 @@
         width: 201px;
     }
 }
+@media screen and (max-width:520px){
+    section{
+        flex-direction: column-reverse;
+    }
+    section .content, .img_bx{
+        width: 100%;
+        height: 50%;
+    }
+    section .content .cont p{
+        width: 250px;
+    }
+    section nav .bi-list{
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+        display: unset;
+    }
+    header nav ul{
+        width: auto;
+        position: absolute;
+        padding: 3px 0px;
+        background: rgb(255, 255, 255, .3);
+        border-radius: 5px;
+        top: 60px;
+        right: 0;
+        transition: 1s linear;
+    }
+}
