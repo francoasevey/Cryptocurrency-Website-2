@@ -52,9 +52,6 @@
         width: 250px;
     }
     section nav .bi-list{
-        color: #fff;
-        font-size: 20px;
-        cursor: pointer;
         display: unset;
     }
     header nav ul{
@@ -64,7 +61,29 @@
         background: rgb(255, 255, 255, .3);
         border-radius: 5px;
         top: 60px;
-        right: 0;
+        right: -150%;
         transition: 1s linear;
+    }
+    header nav .ul_active{
+        right: 1%;
+    }
+}
+@media screen and (max-width:480px){
+    header{
+        padding: 10px 10px;
+    }
+    section .content .cont{
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width:375px){
+    section .content .cont{
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width:350px){
+    section .content .cont h1{
+        font-size: 35px;
+        line-height: 37px;
     }
 }
