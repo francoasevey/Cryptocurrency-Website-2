@@ -75,6 +75,9 @@
     section .content .cont{
         margin-left: 10%;
     }
+    header nav ul{
+        flex-wrap: wrap;
+    }
 }
 @media screen and (max-width:375px){
     section .content .cont{
